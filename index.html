@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 1</title>
+	<meta charset = "utf-8"/>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
+
+
+</head>
+<body>
+	<div class="centrado-porcentual">
+		<div id="izq">
+			<canvas id="mycanvas" width="400" height="400">
+				Tu navegador no soporta canvas.
+			</canvas>
+		
+	 		<input type="file" id="input" accept=".bmp, .dib" style="display:initial;" />
+		</div>
+		<div id="der">
+			<div id="panel">
+				<p>Menu</p>
+				<hr size="2"  />
+				<button id="negative" type="button" class="btn btn-default btn-lg btn-block" style="margin: 25px; width: 80%;">Negative</button>
+				<img id="rotate_270" src="img/girar270.jpg" alt="..." class="img-circle" width="70px" height="70px">
+				<img id="rotate_180" src="img/girar180.jpg" alt="..." class="img-circle" width="70px" height="70px">
+				<img id="rotate_90" src="img/girar90.jpg" alt="..." class="img-circle" width="70px" height="70px">
+				<img id="mirror_H" src="img/reflexion_h.png" alt="..." class="img-thumbnail" width="200px" height="90px" style="margin: 20px;">
+				<img id="mirror_V" src="img/reflexion_v.png" alt="..." class="img-thumbnail" width="200px" height="90px">
+			</div>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>	
+	<script src="js/script.js" type="text/javascript" ></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>				
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "beyond_the_mountains";
+    src: url(../fonts/beyond_the_mountains.ttf) format("truetype");
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url("../img/background_web.jpg");
+}
+
+p{
+    margin-top: 30px;
+    color: #303030;
+    font-family: "beyond_the_mountains";
+    font-size:70px;
+    color: #34885e;
+}
+
+#mycanvas{
+    width: 550px;
+    height: 550px;
+    border-style: solid;
+    border-color: #34885e;
+    background-color: white;
+    background-image: url("../img/background_canvas.png");
+    border-radius: 10px;
+}
+
+.centrado-porcentual {
+    width: 900px;
+    height: 600px;
+    background: gray;
+    position: absolute;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-image: url("../img/background_Izq.jpg");
+}
+
+#izq{
+    width: 70%;
+    height: 100%;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+}
+
+#der{
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+}
+
+#panel{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid;
+    border-color: #e9e9e9;
+    background: #d7d7d7;
+}
+
+#reflexion_h{
+    background-image: url("../img/reflexion_h.png");
+}
